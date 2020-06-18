@@ -72,12 +72,14 @@
                 android:onClick="Registrar"
                 android:text="@string/btnAdd"
                 android:background="@color/btnColor"
-                android:textColor="@color/txtColor"/>
+                android:textColor="@color/txtColor"
+                android:layout_marginTop="10dp"/>
 
             <ListView
                 android:id="@+id/listProducts"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
         </LinearLayout>
 
 
